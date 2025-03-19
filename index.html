@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autos Eléctricos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div class="grid-container">
+        <header class="main-header">
+            <nav class="main-nav">
+                <div class="nav-brand">
+                    <i class="fas fa-car-side"></i>
+                    <h1>Autos Eléctricos</h1>
+                </div>
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#catalogo">Catálogo</a></li>
+                    <li><a href="#ofertas">Ofertas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="filter-container">
+            <h2>Ordenar Por:</h2>
+            <select class="filter-select">
+                <option value="">Precio</option>
+                <option value="low-high">Menor a Mayor</option>
+                <option value="high-low">Mayor a Menor</option>
+            </select>
+        </div>
+
+        <main class="main-content">
+            <section class="cards-grid">
+                <article class="card">
+                    <img src="./assets/img/a1.jpeg" alt="Electric Car 1">
+                    <div class="card-content">
+                        <h3>Tesla Model S</h3>
+                        <p>Vehiculo eléctrico de alta eficiencia</p>
+                        <button class="btn-see-more">Ver más</button>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="./assets/img/a2.jpeg" alt="Electric Car 2">
+                    <div class="card-content">
+                        <h3>BMW i4</h3>
+                        <p>Sedan eléctrico de lujo</p>
+                        <button class="btn-see-more">Ver más</button>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="./assets/img/a3.jpeg" alt="Electric Car 3">
+                    <div class="card-content">
+                        <h3>Audi e-tron</h3>
+                        <p>SUV eléctrico de alta gama</p>
+                        <button class="btn-see-more">Ver más</button>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="./assets/img/a4.jpeg" alt="Electric Car 4">
+                    <div class="card-content">
+                        <h3>Tesla Model 3</h3>
+                        <p>Sedan eléctrico popular</p>
+                        <button class="btn-see-more">Ver más</button>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="./assets/img/a5.jpeg" alt="Electric Car 5">
+                    <div class="card-content">
+                        <h3>Porsche Taycan</h3>
+                        <p>Deportivo eléctrico</p>
+                        <button class="btn-see-more">Ver más</button>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="./assets/img/a6.jpeg" alt="Electric Car 6">
+                    <div class="card-content">
+                        <h3>Mercedes EQS</h3>
+                        <p>Vehiculo eléctrico de lujo</p>
+                        <button class="btn-see-more">Ver más</button>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="./assets/img/a7.jpeg" alt="Electric Car 7">
+                    <div class="card-content">
+                        <h3>Lucid Air</h3>
+                        <p>Sedan eléctrico de alta gama</p>
+                        <button class="btn-see-more">Ver más</button>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="./assets/img/a8.jpeg" alt="Electric Car 8">
+                    <div class="card-content">
+                        <h3>Rivian R1T</h3>
+                        <p>Camioneta eléctrica</p>
+                        <button class="btn-see-more">Ver más</button>
+                    </div>
+                </article>
+            </section>
+
+            <div class="pagination">
+                <a href="#" class="prev-page">&laquo;</a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#" class="next-page">&raquo;</a>
+            </div>
+        </main>
+
+        <footer class="main-footer">
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>Todos los derechos reservados</p>
+        </footer>
+    </div>
+</body>
+</html>
