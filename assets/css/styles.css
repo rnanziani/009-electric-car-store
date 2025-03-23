@@ -257,6 +257,12 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+/* Para tablets */
+@media screen and (min-width: 768px) {
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr); /* 3 columnas */
+    }
+}
 
 /* Media Query para pantallas grandes */
 @media screen and (min-width: 992px) {
