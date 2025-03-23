@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     color: #333;
     background-color: #f5f5f5;
@@ -164,6 +164,7 @@ body {
 
 .btn-see-more {
     background-color: #003B73;
+    font-size: 1.1rem;
     color: white;
     border: none;
     padding: 0.5rem 2rem;
@@ -254,6 +255,12 @@ body {
 
     .cards-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+/* Para tablets */
+@media screen and (min-width: 768px) {
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr); /* 3 columnas */
     }
 }
 
